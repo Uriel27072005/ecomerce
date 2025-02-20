@@ -3,11 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore"; // Import Firestore
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
 // Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyACADwy3iSxnIGC3JqICAaXLUYe8RrBKhM",
   authDomain: "ecomerce-9aab6.firebaseapp.com",
@@ -20,7 +16,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+// Eliminamos la línea de analytics ya que no la estamos utilizando
 const db = getFirestore(app); // Initialize Firestore
 
 export { db }; // Export Firestore
