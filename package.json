@@ -2,7 +2,7 @@
   "name": "ecommerce-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://TU_USUARIO.github.io/ecommerce-react",
+  "homepage": "https://Uriel27072005.github.io/ecommerce-react",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -43,7 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.20.0",
     "gh-pages": "^4.0.0"
-    "@babel/plugin-proposal-private-property-in-object": "^7.20.0"
   }
 }
